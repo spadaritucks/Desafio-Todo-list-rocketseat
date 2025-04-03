@@ -4,3 +4,24 @@
   align-items: center;
   justify-content: center;
 }
+
+.main-menu h1 {
+  font-size: 34px;
+}
+
+.create-task-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  gap: 10px;
+}
+
+.create-task-area button {
+  background-color: #1E6F9F;
+  border: none;
+  color: white;
+  padding: 8px 12px ;
+  height : 60px;
+  width: 100px;
+}
