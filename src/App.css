@@ -9,7 +9,7 @@
   font-size: 34px;
 }
 
-.create-task-area {
+.create-task-area form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,11 +17,61 @@
   gap: 10px;
 }
 
-.create-task-area button {
-  background-color: #1E6F9F;
+.create-task-area form button {
+  background-color: #1e6f9f;
   border: none;
   color: white;
-  padding: 8px 12px ;
-  height : 60px;
+  padding: 8px 12px;
+  height: 60px;
   width: 100px;
+  cursor: pointer;
+}
+
+.create-task-area form button:hover {
+  opacity: 0.6;
+}
+
+.todolist-tasks-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 60vh;
+  gap: 30px;
+}
+
+.tasks-counters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.created-tasks,
+.tasks-finished {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.created-tasks h3,
+.tasks-finished h3 {
+  color: #4ea8de;
+}
+
+.created-tasks p,
+.tasks-finished p {
+  background-color: #262626;
+  border-radius: 100%;
+  padding: 10px 15px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
 }
