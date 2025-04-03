@@ -10,7 +10,7 @@ interface InputProps {
     placeholder?: string;
     type: InputType
     onInvalid?: () => void
-    onChange?: () => void
+    onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void
     onClick?: () => void
 }
 
